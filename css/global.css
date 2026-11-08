@@ -1,0 +1,85 @@
+*{
+  margin: 0;}
+  body {
+    display: flex;
+     flex-direction: column;
+     
+  }
+
+  main {
+    flex: 1;
+  }
+  
+    footer {
+      background-color: black;
+      text-align: center;
+      padding: 35px 20px;
+         border-top: 2px solid #80634c;
+       margin-top: 50px;
+    }
+
+    .pie-de-pagina p {
+    font-size: 15px;
+     text-align: center;
+    margin-bottom: 20px;
+    }
+
+    .pie-de-pagina h2 {
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #c5a783;
+    margin-bottom: 12px;
+}
+
+
+.gif-footer:hover {
+    transform: scale(1.06);
+    box-shadow: 0 0 15px rgba(197, 167, 131, 0.4);
+}
+
+footer .galeria img.gif-footer {
+    width: 180px;
+    height: 120px;
+    border: 1px solid #80634c;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+footer .galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px;
+}
+ nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+}
+
+nav a {
+    color: #CECED9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 5px;
+}
+
+nav a:hover {
+    color: #d4067e;
+}
+  h1 img {
+        width: 220px;
+        height: auto;
+         display: block;
+          
+         }  
+
+
+

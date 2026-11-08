@@ -1,0 +1,213 @@
+
+body {
+
+      
+  font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+	 background-color: #0b0b18;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(11, 11, 24, 0.15) 0%,
+            rgba(11, 11, 24, 0.35) 40%,
+		
+            #0b0b18 100%
+        ),
+        url("../img/fondo\ personajes\ arcane.jpg");
+
+    background-size: 100% 900px, 100% 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+   
+    header {
+     background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.781) 35%, rgba(56, 77, 118, 0.742) 83%, rgba(145, 147, 156, 0.737) 100%);
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+     font-size: x-large;
+  
+    }
+
+
+
+    h2 {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-weight: 800;
+    margin-top: auto;
+}
+
+    h2:hover {
+      color: #ffffff;
+      text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #1408ff,
+        0 0 20px #ed0798,
+        0 0 40px #f20085;
+    
+        
+      
+    }
+      h3 {
+    text-align: left;}
+
+    
+    
+    .foto-personaje {
+        width: 300px;
+        border: 5px inset;
+         
+        
+    }
+    .info-personaje{
+    display: flex ;
+    gap: 30px;
+    align-items: flex-start ;
+    }
+    .info-extra{
+         width: 70%;
+         font-size: larger;
+        
+    }
+     .ficha-abierta {
+    display: none;
+}
+
+    .ficha-abierta:target {
+    display: block;
+     position: fixed;
+    inset: 10%;
+    overflow-y: auto;
+    padding: 30px;
+
+    border: 1px solid #6486B8;
+    box-shadow: 0 0 35px rgba(55, 65, 255, 0.35);
+    transition: transform 1s ease,
+                box-shadow 0.3s ease,
+                filter 0.3s ease;
+  
+}
+.portada-personaje {
+     display: block;
+    width: 180px;
+    overflow: hidden;
+    border: 2px solid #845103;
+    text-align: center;
+    background: #0e0742;
+     border-radius: 5%;
+    transition: transform 1s ease,
+                box-shadow 0.3s ease,
+                filter 0.3s ease;
+            
+}
+.portada-personaje img {
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    transition: transform 1s ease,
+                box-shadow 0.3s ease,
+                filter 0.3s ease;
+}
+
+.portada-personaje:hover {
+    transform: scale(1.20);
+    box-shadow: 0 0 18px #fb0287;
+    filter: brightness(1.3);
+}
+.galeria-personajes { 
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.galeria-personajes .portada-personaje {
+    display: block;
+    width: 100%;
+   
+}
+#ficha-vi:target {
+    background: #5e0233;
+background: radial-gradient(circle, rgba(94, 2, 51, 1) 36%, rgba(110, 14, 49, 1) 55%, rgba(145, 25, 59, 1) 80%, rgba(23, 10, 16, 1) 92%);
+    border: 2px solid #fcfcfc;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+}
+
+#ficha-jinx:target {    
+background: #000552;
+background: radial-gradient(circle, rgb(1, 4, 44) 36%, rgb(129, 2, 91) 55%, rgb(109, 37, 114) 80%, rgb(2, 2, 50) 92%);
+    border: 2px solid #faf9fb;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+}
+#ficha-caitlyn:target {   
+    background: #000330;    
+background: radial-gradient(circle, rgb(0, 2, 24) 36%, rgb(2, 30, 109) 55%, rgb(2, 59, 202) 80%, rgb(8, 8, 47) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+}
+   #ficha-jayce:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(104, 12, 0) 36%, rgb(96, 0, 0) 55%, rgb(252, 121, 104) 80%, rgb(75, 0, 0) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45); 
+   }
+  
+    #ficha-viktor:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(109, 44, 0) 36%, rgb(67, 32, 5) 55%, rgb(192, 120, 72) 80%, rgb(28, 5, 0) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45); 
+   }
+ 
+    #ficha-ekko:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(102, 44, 0) 36%, rgb(100, 47, 0) 55%, rgb(206, 90, 2) 80%, rgb(59, 28, 1) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45); 
+   }
+
+    #ficha-ambessa:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(52, 7, 1) 36%, rgb(108, 27, 27) 55%, rgb(159, 22, 4) 80%, rgb(37, 3, 3) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45); 
+   }
+     #ficha-sevika:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(50, 1, 52) 36%, rgb(48, 3, 37) 55%, rgb(126, 5, 86) 80%, rgb(29, 1, 26) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+     }
+
+      #ficha-singed:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(1, 54, 14) 36%, rgb(1, 71, 19) 55%, rgb(2, 151, 9) 80%, rgb(1, 16, 3) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+      }
+
+       #ficha-warwick:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(2, 38, 94) 36%, rgb(27, 86, 108) 55%, rgb(4, 22, 159) 80%, rgb(3, 20, 37) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+       }
+        #ficha-vander:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(74, 27, 2) 36%, rgb(111, 31, 9) 55%, rgb(126, 41, 1) 80%, rgb(37, 3, 3) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+}
+ #ficha-mel:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(143, 93, 1) 36%, rgb(147, 80, 14) 55%, rgba(229, 149, 1, 0.977) 80%, rgb(89, 50, 0) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
+
+}
+}

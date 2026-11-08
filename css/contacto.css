@@ -1,0 +1,76 @@
+
+
+body {
+ font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+	 background-color: #0b0b18;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(11, 11, 24, 0.15) 0%,
+            rgba(11, 11, 24, 0.35) 40%,
+		
+            #0b0b18 100%
+        ),
+        url("../img/fondo\ personajes\ arcane.jpg");
+
+    background-size: 100% 900px, 100% 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+   
+    header {
+     background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.781) 35%, rgba(56, 77, 118, 0.742) 83%, rgba(145, 147, 156, 0.737) 100%);
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+     font-size: x-large;
+  
+    }
+    }
+
+  .contacto {
+    background: #073763;
+     border: 2px solid #80634c;
+    border-radius: 12px;
+    padding: 35px;
+    max-width: 750px;
+    margin: 50px auto;
+  }
+
+  .contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contacto input,
+.contacto textarea {
+  background: rgba(35, 35, 61, 0.8);
+  border: 1px solid #80634c;
+  border-radius: 6px;
+  padding: 13px;
+  color: antiquewhite;
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+}
+
+.contacto button {
+  margin-top: 15px;
+  padding: 14px;
+  background: #80634c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+  
+   

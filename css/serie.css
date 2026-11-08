@@ -1,0 +1,162 @@
+
+body {
+
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+	 background-color: #331101;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(11, 11, 24, 0.15) 0%,
+            rgba(70, 26, 18, 0.35) 40%,
+		
+            #331101 100%
+        ),
+        url("../img/arcane\ fondo\ serie.png");
+
+    background-size: 100% 900px, 100% 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+   header {
+      background: #073763;
+background: linear-gradient(90deg, rgba(90, 46, 3, 0.27) 0%, rgba(141, 67, 3, 0.818) 32%, rgba(98, 28, 28, 0.374) 47%, rgba(38, 66, 112, 0.368) 63%, rgba(0, 51, 145, 0.637) 79%);
+
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+  
+    }
+
+        
+         p {
+    text-align: left;
+    line-height: 2;
+      }
+        .historia {
+            padding: 50px 5%;
+        }
+
+        .ciudades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+  .ZAUN {
+     padding: 35px;
+    border-radius: 8px;
+    transition: 0.4s ease;
+    background: linear-gradient(
+        135deg,
+        #302410b8,
+        #3b1817
+    )
+
+  }
+
+  .Piltover{
+     padding: 35px;
+    border-radius: 8px;
+    transition: 0.4s ease;
+    background: linear-gradient(
+        135deg,
+        #302410b8,
+        #3b1817
+    )
+
+    }
+   .Piltover h3,
+.ZAUN h3 {
+   
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+       .Piltover:hover, .ZAUN:hover{
+         transform: translateY(-7px);
+     box-shadow: 0 0 18px #2b02fb;
+    filter: brightness(1.3);
+       }
+     
+       .creadores {
+        padding: 50px 5%;
+
+       }
+     .contenedor-creadores{
+      display: grid;
+      gap: 30px;
+     }
+
+     .primero,.segundo {
+       background: linear-gradient(
+        145deg,
+        #111e30,
+        #192b40
+    );
+
+    border: 1px solid #526987;
+    border-radius: 8px;
+    padding: 35px;
+
+    transition: 0.4s ease;
+     }
+
+     .primero:hover,
+   .segundo:hover {
+    transform: translateY(-6px);
+    border-color: #d6b56e;
+    box-shadow: 0 0 18px #9d5e00;
+}
+
+.primero h3, .segundo h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+h2:hover {
+  color: #ffffff;
+      text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ff0808,
+        0 0 20px #ed0798,
+        0 0 40px #f20085;
+}
+
+.estudio {
+  padding: 50px 5%;
+}
+.riot,.fortiche {
+    margin-bottom: 30px;
+    padding: 35px 40px;
+    border-radius: 6px;
+    transition: 0.4s ease;
+    
+}
+
+.fortiche {
+    background: linear-gradient(
+        110deg,
+        #094b56,
+        #010a17
+    );
+
+    border-left: 4px solid #3500f4;
+}
+.riot {
+    background: linear-gradient(
+        110deg,
+        #402d19,
+        #5d1103
+    );
+
+    border-left: 4px solid #fd9904;
+}
+
+
+    }

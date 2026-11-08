@@ -1,0 +1,165 @@
+
+
+body {
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+     background-image:
+        linear-gradient(
+            rgba(11, 11, 24, 0.55),
+            rgba(11, 11, 24, 0.75)
+        ),
+        url("../img/iniciofondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+   
+    header {
+     background: #073763;
+background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0.719) 32%, rgba(73, 48, 107, 0.67) 47%, rgba(112, 38, 79, 0.719) 63%, rgba(145, 41, 95, 0.785) 79%);
+    
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+  
+    }
+
+  
+    p {
+    text-align: left;
+    line-height: 2;
+      }
+     
+    .carrusel {
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px;
+   
+    
+}
+
+.galeria img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #047dff;
+    border-style:double;
+    border-radius: 8px;
+     transition: transform 1s ease,
+                box-shadow 0.3s ease,
+                filter 0.3s ease;
+           
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 18px #d4067e;
+    filter: brightness(1.8);
+}
+    
+     
+     .introduccion {
+      background-color: #073763ea;
+      border: 2px solid #0873D1;
+      border-radius: 12px;
+      padding: 30px 40px;
+      margin: 40px auto;
+      max-width: 1500px;
+      
+   
+     }
+
+     .introduccion h2{
+      text-align: left;
+      text-decoration: none;
+      color: aqua;
+       margin-top: 0;
+    margin-bottom: 24px;
+     text-shadow:
+        0 0 5px aqua,
+        0 0 10px rgb(25, 4, 251),
+        0 0 20px aqua;
+       
+     }
+      
+
+      h2:hover {
+      color: #ffffff;
+      text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ff0808,
+        0 0 20px #ed0798,
+        0 0 40px #f20085;
+       
+}
+
+     
+      .video {
+        background-color: #9a044fb2;
+        border: 2px solid #ff006f;
+        text-align: center;
+        margin: 40px auto;
+        border-radius: 12px;
+        padding: 30px 40px;
+        max-width: 1500px;
+      }
+
+      .video h2{
+      text-align: center;
+      text-decoration: none;
+      color: rgb(255, 100, 190);
+       margin-top: 0;
+      margin-bottom: 24px;
+       text-shadow:
+        0 0 5px #ff0f93,
+        0 0 10px #ff0404,
+        0 0 20px #d4067e;
+     }
+
+     .video h2:hover {
+      color: #ffffff;
+      text-shadow:
+        0 0 5px  #ffffff,
+        0 0 10px #0085fa,
+        0 0 20px #04d9ff,
+        0 0 40px #06e2ff;
+     }
+      
+      .video iframe {
+     border: 2px solid #ff0f93;
+    border-radius: 12px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+  
+    }
+
+    .video iframe:hover {
+    transform: scale(1.03);
+    border-color: #ffffff;
+    box-shadow:
+        0 0 10px #ff0f93,
+        0 0 20px #d4067e,
+        0 0 35px rgba(212, 6, 126, 0.5);
+   }
+
+   
+
+
+
+
+
+    
+  

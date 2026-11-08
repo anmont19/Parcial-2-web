@@ -1,0 +1,62 @@
+
+body {
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+     background-image:
+        linear-gradient(
+            rgba(11, 11, 24, 0.55),
+            rgba(11, 11, 24, 0.75)
+        ),
+        url("../img/fondo\ pagina\ error.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+   
+    header {
+     background: #073763;
+background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0.719) 32%, rgba(73, 48, 107, 0.67) 47%, rgba(112, 38, 79, 0.719) 63%, rgba(145, 41, 95, 0.785) 79%);
+    
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+  
+    }
+
+ .error404 {
+    text-align: center;
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 45px 30px;
+
+    background: rgba(15, 12, 35, 0.88);
+    border: 2px solid #0021b2;
+    border-radius: 15px;
+
+    box-shadow: 0 0 25px rgba(208, 0, 142, 0.793);
+
+    animation: aparecer 1.2s ease;
+}  
+.error404 a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+
+    background: #1305a6;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+    transition: 0.3s;
+}
+.error404 a:hover {
+    background: #b70189;
+    color: #0b0b18;
+    transform: scale(1.05);
+}

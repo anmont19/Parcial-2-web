@@ -1,0 +1,49 @@
+body {
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+     background-image:
+        linear-gradient(
+            rgba(11, 11, 24, 0.55),
+            rgba(11, 11, 24, 0.75)
+        ),
+        url("../img/confirmacion\ pagina\ fondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+   header {
+     background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.781) 35%, rgba(56, 77, 118, 0.742) 83%, rgba(145, 147, 156, 0.737) 100%);
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+     font-size: x-large;
+  
+    }
+ 
+   
+ .confirmacion {
+    text-align: center;
+    background: rgba(7, 35, 63, 0.92);
+    border: 2px solid #80634c;
+    border-radius: 12px;
+    max-width: 750px;
+    margin: 120px auto;
+    padding: 60px 30px;
+} 
+.confirmacion a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #80634c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}

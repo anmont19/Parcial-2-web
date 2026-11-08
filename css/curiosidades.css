@@ -1,0 +1,451 @@
+
+body {
+    
+  font-size: x-large;
+    color: antiquewhite;
+    font-family: "Cinzel", serif;
+	 background-color: #0b0b18;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(11, 11, 24, 0.15) 0%,
+            rgba(11, 11, 24, 0.35) 40%,
+		
+            #0b0b18 100%
+        ),
+        url("../img/arcane fondo curiosidades.png");
+
+    background-size: 100% 900px, 100% 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+  
+
+	
+
+   
+    header {
+     background: #073763f6;
+background: linear-gradient(90deg, rgba(7, 55, 99, 0.756) 0%, rgba(48, 32, 82, 0.723) 32%, rgba(73, 48, 107, 1) 47%, rgba(112, 38, 79, 0.641) 63%, rgba(145, 41, 95, 0.625) 79%);
+
+     padding: 10px 20px ;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 24px;
+  
+    }
+
+
+    
+    .borde {
+         border: 1.7px solid rgb(236, 236, 236);
+         margin: 20px;
+         padding: 20px;
+    }
+
+     
+    p {
+    text-align: left;
+    line-height: 2;
+      }
+     
+    .carrusel {
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px;
+   
+    
+}
+
+.galeria img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #047dff;
+    border-style:double;
+    border-radius: 8px;
+     transition: transform 1s ease,
+                box-shadow 0.3s ease,
+                filter 0.3s ease;
+           
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 18px #d4067e;
+    filter: brightness(1.8);
+}
+      
+h2 {
+	text-align: center;
+}
+    
+      h2:hover {
+      color: #ffffff;
+      text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ff0808,
+        0 0 20px #ed0798,
+        0 0 40px #f20085;
+       
+}
+
+     
+      .video {
+        background-color: #3ca6b693;
+        border: 2px solid #5ae3ff;
+        text-align: center;
+        margin: 40px auto;
+        border-radius: 12px;
+        padding: 30px 40px;
+        margin: 40px auto;
+        max-width: 1500px;
+      }
+
+      .video h2{
+      text-align: center;
+      text-decoration: none;
+      color: rgb(255, 100, 190);
+       margin-top: 0;
+      margin-bottom: 24px;
+       text-shadow:
+        0 0 5px #ff0f93,
+        0 0 10px #ff0404,
+        0 0 20px #d4067e;
+     }
+
+     .video h2:hover {
+      color: #ffffff;
+      text-shadow:
+        0 0 5px  #ffffff,
+        0 0 10px #0085fa,
+        0 0 20px #04d9ff,
+        0 0 40px #06e2ff;
+     }
+      
+      .video iframe {
+     border: 2px solid #0fd3ff;
+    border-radius: 12px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-color 0.3s ease;
+  
+    }
+
+    .video iframe:hover {
+    transform: scale(1.03);
+    border-color: #ffffff;
+    box-shadow:
+        0 0 10px #ff0f93,
+        0 0 20px #d4067e,
+        0 0 35px rgba(212, 6, 126, 0.5);
+   }
+
+   .LOL {
+     background-color: #9a044fb2;
+        border: 2px solid #ff006f;
+        text-align: center;
+        margin: 40px auto;
+        border-radius: 12px;
+        padding: 30px 40px;
+        margin: 40px auto;
+        max-width: 1500px;
+     
+   }
+
+   .musica {
+    background-color: #9a044fb2;
+    border: 2px solid #ff006f;
+    text-align: center;
+    margin: 40px auto;
+    border-radius: 12px;
+    padding: 30px 40px;
+    max-width: 1500px;
+}
+
+.musica-contenedor {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.musica-bloque {
+    
+    background-color: #72033fb0;
+    border: 1px solid #ff4b9a;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.musica-bloque h3 {
+    margin-bottom: 18px;
+}
+
+.musica-bloque p {
+    text-align: center;
+    line-height: 1.7;
+}
+.spotify {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: 352px;
+  margin: 30px auto;
+  border: 2px solid #ff006f;
+  border-radius: 15px;
+  box-shadow: 0 0 18px #ff006f55;
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+h1 {
+	font: 800 max(16pt, 5vw) / 1 "dela-gothic-one", display;
+	color: rgba(193, 193, 195, 0.959) ;
+	width: 20vmin;
+}
+p {
+	font-size: max(10pt, 2.5vmin);
+	line-height: 1.4;
+	color: #efdfdf;
+	margin-bottom: 1.5rem;
+}
+
+.wrap {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 90vmin;
+	height: 65vmin;
+	margin: 2rem auto;
+	border: 8px solid;
+	border-image: linear-gradient(
+			-50deg,
+			rgb(12, 220, 239),
+			#08d8fd,
+			rgb(4, 25, 255),
+			rgb(3, 165, 234),
+			rgb(26, 233, 252),
+			#0d01ff,
+			rgb(5, 24, 238)
+		)
+		1;
+	transition: 0.3s ease-in-out;
+	position: relative;
+	overflow: hidden;
+}
+.overlay {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 1rem 0.75rem;
+	background: #05025f86;
+	transition: 0.4s ease-in-out;
+	z-index: 1;
+
+	h1,
+	p {
+		margin-inline-start: 0.5em;
+	}
+}
+.overlay-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 15vmin;
+	height: 100%;
+	padding: 0.5rem 0 0 0rem;
+	border: 3px solid;
+	border-image: linear-gradient(
+			to bottom,
+			#24acae 5%,
+			rgb(17, 13, 237) 35% 65%,
+			#11e2f1 95%
+		)
+		0 0 0 100%;
+	transition: 0.3s ease-in-out 0.2s;
+	z-index: 1;
+}
+.image-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	background-image: url("/img/arcane\ album\ cover.jpg");
+	background-size: cover;
+	transition: 0.3s ease-in-out;
+	
+}
+
+.inset {
+	max-width: 50%;
+	margin: 0.25em 1em 1em 0;
+	border-radius: 0.25em;
+	float: left;
+}
+
+.dots {
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 70px;
+	height: 4vmin;
+	transition: 0.3s ease-in-out 0.3s;
+}
+.dot {
+	width: 1rem;
+	height: 1rem;
+	background: rgb(0, 191, 255);
+	border: 1px solid rgb(0, 67, 130);
+	border-radius: 50%;
+	transition: 0.3s ease-in-out 0.3s;
+}
+
+.text {
+	display: grid;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60vmin;
+	height: 100%;
+	padding: 3vmin 4vmin;
+	background: #021883c0;
+	box-shadow: inset 1px 1px 15px 0 rgba(0 0 0 / 0.4);
+	overflow-y: scroll;
+}
+.tree {
+	place-self: center;
+	width: calc(50px + 2vw);
+}
+
+.wrap:hover .overlay {
+	transform: translateX(-60vmin);
+}
+.wrap:hover .image-content {
+	width: 30vmin;
+}
+.wrap:hover .overlay-content {
+	border: none;
+	transition-delay: 0.2s;
+	transform: translateX(60vmin);
+}
+.wrap:hover .dots {
+	transform: translateX(1rem);
+}
+.wrap:hover .dots .dot {
+	background: rgb(241, 241, 243);
+}
+
+/* Animations and timing delays */
+.animate {
+	animation-duration: 0.7s;
+	animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+	animation-fill-mode: backwards;
+}
+/* Pop In */
+.pop {
+	animation-name: pop;
+}
+@keyframes pop {
+	0% {
+		opacity: 0;
+		transform: scale(0.5, 0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1, 1);
+	}
+}
+
+/* Slide In */
+.slide {
+	animation-name: slide;
+}
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translate(4em, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+/* Slide Left */
+.slide-left {
+	animation-name: slide-left;
+}
+@keyframes slide-left {
+	0% {
+		opacity: 0;
+		transform: translate(-40px, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+.slide-up {
+	animation-name: slide-up;
+}
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateY(3em);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.delay-1 {
+	animation-delay: 0.3s;
+}
+.delay-2 {
+	animation-delay: 0.6s;
+}
+.delay-3 {
+	animation-delay: 0.9s;
+}
+.delay-4 {
+	animation-delay: 1.2s;
+}
+.delay-5 {
+	animation-delay: 1.5s;
+}
+.delay-6 {
+	animation-delay: 1.8s;
+}
+.delay-7 {
+	animation-delay: 2.1s;
+}
+.delay-8 {
+	animation-delay: 2.4s;
+}
+
+
+
+}
