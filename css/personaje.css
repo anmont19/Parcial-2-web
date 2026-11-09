@@ -19,7 +19,9 @@ body {
     background-size: 100% 900px, 100% 900px;
     background-repeat: no-repeat;
     background-position: top center;
-   
+
+
+
     header {
      background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.781) 35%, rgba(56, 77, 118, 0.742) 83%, rgba(145, 147, 156, 0.737) 100%);
@@ -83,6 +85,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.7
     inset: 10%;
     overflow-y: auto;
     padding: 30px;
+    box-sizing: border-box;
 
     border: 1px solid #6486B8;
     box-shadow: 0 0 35px rgba(55, 65, 255, 0.35);
@@ -125,6 +128,17 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.7
     justify-content: center;
     gap: 30px;
     padding: 20px;
+}
+
+@media (max-width:650px){
+    .galeria-personajes {
+        grid-template-columns: repeat(2, minmax(0,180px));
+    }
+}
+@media (max-width:400px){
+    .galeria-personajes {
+        grid-template-columns: 180px;
+    }
 }
 .galeria-personajes .portada-personaje {
     display: block;
@@ -209,5 +223,11 @@ background: radial-gradient(circle, rgb(143, 93, 1) 36%, rgb(147, 80, 14) 55%, r
     border: 2px solid #e0dde7;
     box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
 
+}
+#ficha-hei:target {       
+background: #d6330a;
+background: radial-gradient(circle, rgb(143, 93, 1) 36%, rgb(147, 80, 14) 55%, rgba(229, 149, 1, 0.977) 80%, rgb(89, 50, 0) 92%);
+    border: 2px solid #e0dde7;
+    box-shadow: 0 0 35px rgba(232, 93, 117, 0.45);
 }
 }

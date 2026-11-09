@@ -18,6 +18,7 @@ body {
     background-size: 100% 900px, 100% 900px;
     background-repeat: no-repeat;
     background-position: top center;
+}
 
    header {
       background: #073763;
@@ -88,6 +89,7 @@ background: linear-gradient(90deg, rgba(90, 46, 3, 0.27) 0%, rgba(141, 67, 3, 0.
        }
      .contenedor-creadores{
       display: grid;
+      grid-template-columns: repeat(2,1fr);
       gap: 30px;
      }
 
@@ -159,4 +161,4 @@ h2:hover {
 }
 
 
-    }
+    

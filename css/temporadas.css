@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
 
+}
    
     header {
      background: #073763;
@@ -176,7 +177,7 @@ background: linear-gradient(90deg, rgba(90, 46, 3, 0.27) 0%, rgba(141, 67, 3, 0.
     flex-wrap: wrap;
 }
   
-     }
+     
    .video-card iframe {
        flex: 1 1 300px;
     min-width: 0;
@@ -283,7 +284,7 @@ background: linear-gradient(90deg, rgba(90, 46, 3, 0.27) 0%, rgba(141, 67, 3, 0.
 
 
 
+
+
+
 }
-
-
-    

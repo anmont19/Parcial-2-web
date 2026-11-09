@@ -20,7 +20,7 @@ body {
     background-position: top center;
 
   
-
+}
 	
 
    
@@ -171,15 +171,33 @@ h2 {
 }
 
 .musica-contenedor {
-    display: flex;
+    display: grid;
+	grid-template-columns: repeat(2, minmax (0,1fr));
     gap: 25px;
-    justify-content: center;
     align-items: stretch;
+}
+.musica-contenedor >.wrap {
+	width: 100%;
+	min-width: 0;
+	height: 420px;
+	margin: 2rem auto;
+}
+
+@media (max-width: 750px) {
+
+    .musica-contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 400px;
+    }
 }
 
 .musica-bloque {
     
-    background-color: #72033fb0;
+    background-color: #6e033cb0;
     border: 1px solid #ff4b9a;
     border-radius: 12px;
     padding: 25px;
@@ -254,7 +272,7 @@ p {
 	width: 100%;
 	height: 100%;
 	padding: 1rem 0.75rem;
-	background: #05025f86;
+	background: #1d0012a1;
 	transition: 0.4s ease-in-out;
 	z-index: 1;
 
@@ -356,13 +374,13 @@ p {
 	background: rgb(241, 241, 243);
 }
 
-/* Animations and timing delays */
+
 .animate {
 	animation-duration: 0.7s;
 	animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
 	animation-fill-mode: backwards;
 }
-/* Pop In */
+
 .pop {
 	animation-name: pop;
 }
@@ -377,7 +395,7 @@ p {
 	}
 }
 
-/* Slide In */
+
 .slide {
 	animation-name: slide;
 }
@@ -392,7 +410,7 @@ p {
 	}
 }
 
-/* Slide Left */
+
 .slide-left {
 	animation-name: slide-left;
 }
@@ -448,4 +466,3 @@ p {
 
 
 
-}

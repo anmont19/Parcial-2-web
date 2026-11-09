@@ -77,6 +77,7 @@ background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0
       padding: 30px 40px;
       margin: 40px auto;
       max-width: 1500px;
+      box-sizing: border-box;
       
    
      }
@@ -114,6 +115,11 @@ background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0
         border-radius: 12px;
         padding: 30px 40px;
         max-width: 1500px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
       }
 
       .video h2{
@@ -122,6 +128,7 @@ background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0
       color: rgb(255, 100, 190);
        margin-top: 0;
       margin-bottom: 24px;
+      width: 100%;
        text-shadow:
         0 0 5px #ff0f93,
         0 0 10px #ff0404,
@@ -140,6 +147,9 @@ background: linear-gradient(90deg, rgba(7, 55, 99, 0.648) 0%, rgba(48, 32, 82, 0
       .video iframe {
      border: 2px solid #ff0f93;
     border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
     transition: transform 0.3s ease,
                 box-shadow 0.3s ease,
                 border-color 0.3s ease;

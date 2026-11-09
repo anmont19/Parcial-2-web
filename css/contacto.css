@@ -18,7 +18,7 @@ body {
     background-size: 100% 900px, 100% 900px;
     background-repeat: no-repeat;
     background-position: top center;
-   
+}
     header {
      background: #020024;
 background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.781) 35%, rgba(56, 77, 118, 0.742) 83%, rgba(145, 147, 156, 0.737) 100%);
@@ -30,7 +30,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 0.748) 0%, rgba(9, 9, 121, 0.7
      font-size: x-large;
   
     }
-    }
+    
 
   .contacto {
     background: #073763;
